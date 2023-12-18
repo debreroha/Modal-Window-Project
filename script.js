@@ -10,7 +10,7 @@ const openModal = function () {
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
 };
-// function for closing the modal
+// function for closing of the modal
 const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
