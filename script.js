@@ -6,13 +6,13 @@ const btnCloseModal = document.querySelector('.close-modal');
 const btnsOpenModal = document.querySelectorAll('.show-modal');
 console.log(btnsOpenModal);
 
-// a logic for closing the modal
+// a logic to  open the modal
 const openModal = function () {
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
 };
 
-
+// a logic for closing a modal
 const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
