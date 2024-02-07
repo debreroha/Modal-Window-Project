@@ -15,7 +15,7 @@ const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
 };
-// opening button for modal window
+
 for (let i = 0; i < btnsOpenModal.length; i++) {
   btnsOpenModal[i].addEventListener('click', openModal);
   btnCloseModal.addEventListener('click', closeModal);
